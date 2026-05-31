@@ -1,0 +1,165 @@
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Segoe UI, sans-serif;
+    background:#f5f7fb;
+    color:#1f2937;
+    line-height:1.6;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+header{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+header h1{
+    font-size:2.4rem;
+    color:#1e3a8a;
+}
+
+header p{
+    color:#64748b;
+    margin-top:10px;
+}
+
+.summary{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:15px;
+    margin-bottom:40px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.timeline{
+    border-left:4px solid #2563eb;
+    padding-left:35px;
+}
+
+.day{
+    position:relative;
+    margin-bottom:18px;
+}
+
+.circle{
+    position:absolute;
+    left:-52px;
+    top:10px;
+
+    width:34px;
+    height:34px;
+
+    border-radius:50%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    color:white;
+    font-weight:bold;
+}
+
+details{
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 3px 12px rgba(0,0,0,.08);
+}
+
+summary{
+    list-style:none;
+    cursor:pointer;
+    padding:18px;
+    font-weight:700;
+    font-size:17px;
+}
+
+summary::-webkit-details-marker{
+    display:none;
+}
+
+.content{
+    padding:0 20px 20px;
+}
+
+.content ul{
+    margin-left:20px;
+}
+
+.content li{
+    margin:6px 0;
+}
+
+.badge{
+    display:inline-block;
+    padding:4px 10px;
+    border-radius:20px;
+    color:white;
+    font-size:12px;
+    margin-bottom:12px;
+}
+
+/* COLORS */
+
+.fundamental .circle{
+    background:#2563eb;
+}
+
+.word .circle{
+    background:#10b981;
+}
+
+.excel .circle{
+    background:#f59e0b;
+}
+
+.ppt .circle{
+    background:#ef4444;
+}
+
+.html .circle{
+    background:#e34c26;
+}
+
+.css .circle{
+    background:#264de4;
+}
+
+.js .circle{
+    background:#d4a017;
+}
+
+.section-title{
+    margin:50px 0 20px;
+    font-size:28px;
+    color:#0f172a;
+}
+
+footer{
+    margin-top:50px;
+    text-align:center;
+    color:#64748b;
+}
+
+</style>
